@@ -1,0 +1,8 @@
+{
+    "name": "Start on Heroku: Node.js",
+    "description": "An app to track burgers that have been devoured and a punchlist of ones that have not been.",
+    "repository": "https://github.com/ElyseDaly/burger",
+    "logo": "",
+    "keywords": ["burger", "orm", "express"],
+    "image": ""
+}
