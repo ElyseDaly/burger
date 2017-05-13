@@ -2,11 +2,6 @@ html, body, .container {
 	height: 100%;
 }
 
-body {
-	background-color: #18afe6;
-	color: #fff;
-}
-
 img {
 	float: left;
 	margin: 0 auto;
@@ -15,11 +10,11 @@ img {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 h1, h2 {
@@ -27,8 +22,8 @@ h1, h2 {
 }
 
 button {
-	margin-top: 15px;
-	margin-right: 15px;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 
 #update {
