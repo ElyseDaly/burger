@@ -1,8 +1,20 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
 
-var config = require('./config.js');
-var connection = mysql.createConnection(config);
+//var connection = mysql.createConnection(config);
+
+
+
+var connection;
+
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+	var config = require('./config.js');
+	connection = mysql.createConnection(config);
+}
+
+
 
 // Make connection.
 connection.connect(function(err) {
